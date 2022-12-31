@@ -1,0 +1,15 @@
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  outline: none;
+  margin: 10px;
+}
+
+@media screen and (max-width:500px) {
+  input {
+    padding: 10px;
+    font-size: 0.8em;
+    outline: none;
+    margin: 10px 2px;
+  }
+}

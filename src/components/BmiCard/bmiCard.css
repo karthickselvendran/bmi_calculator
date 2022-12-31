@@ -1,0 +1,25 @@
+form {
+    text-align: center;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+form p {
+    margin: 10px;
+    max-width: 600px;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2em;
+}
+
+.controlsRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:500px) {
+    form {
+        padding: 1.5em;
+    }
+}
